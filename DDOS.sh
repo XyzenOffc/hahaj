@@ -5,7 +5,7 @@ read -p "Username: " username
 read -s -p "Password: " password
 
 # Memeriksa apakah username dan password benar
-if [ "$username" == "lopsus" ] && [ "$password" == "root" ]; then
+if [ "$username" == "1" ] && [ "$password" == "1" ]; then
     # Jika benar, lanjutkan ke bagian selanjutnya dari skrip
     clear
     echo "welcome to TOOLS Lopsus"
